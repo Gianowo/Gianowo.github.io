@@ -1,0 +1,62 @@
+body {
+    background-color: grey;
+
+}
+
+.flexbox {
+
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.image {
+    font-size:50px;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: teal;
+    height: 50px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    overflow:hidden;
+    left:0;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    background-color: grey;
+    display:block;
+    text-decoration:none;
+    text-align: center;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    
+}
+
+li a:hover {
+    background-color:rgb(14, 196, 14);
+}
+
+.content {
+    justify-content: center;
+    padding: 20px;
+    background-color: honeydew;
+    
+
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    background-color:black ;
+}
+
+
+
