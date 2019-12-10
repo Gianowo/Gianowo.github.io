@@ -1,20 +1,22 @@
 body {
-    background-color: grey;
+    background-color:grey;
     
 }
 
 .flexbox {
     margin-top: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     margin-bottom: 20px;
     padding-bottom: 2px;
+    height: 1300px;
+    border:solid 1px black;
     
 }
 
 .logo {
     text-align: center;
     font-size: 100px;
-    background-color: red;
+    background-color: white;
     height: 200px;
     width: 500px;
     line-height:170px;
@@ -31,7 +33,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -40,9 +42,8 @@ body {
 
 
 li {
-    
     float:left;
-    
+
 }
 
 li a {
@@ -64,24 +65,25 @@ li a:hover {
 }
 
 .content {
+
     width: 700px;
     justify-content: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color:greenyellow;
+    background-color:grey;
     margin-left: 20px;
     margin-right: 100px;
-    
+    float:left
 
 }
 
 .heading {
-    color: red;
-    background-color: blue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    width: 200px; 
-    margin-left:250px;
+    width: 400px; 
+    margin-left:150px;
     margin-top: 0px;
     margin-bottom: 20px;
     
@@ -99,10 +101,24 @@ p {
 
 }
 
+.image {
+    margin-top: 50px;
+    height: 800px;
+    width: 350px;
+    display: block;
+    float: left;
+    border: solid 1px black;
+    
+
+}
+
 footer {
+    padding-top:0px;
+    margin-top: 0px;
     color: white;
     text-align: center;
     background-color:black;
+
 }
 
 
