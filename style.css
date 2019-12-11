@@ -1,5 +1,5 @@
 body {
-    background-color:grey;
+    background-color: white;
     
 }
 
@@ -7,9 +7,9 @@ body {
     margin-top: 20px;
     background-color: white;
     margin-bottom: 20px;
+    padding-top: 50px;
     padding-bottom: 2px;
     height: 1300px;
-    border:solid 1px black;
     
 }
 
@@ -18,16 +18,17 @@ body {
     font-size: 100px;
     background-color: white;
     height: 200px;
-    width: 500px;
+    width: 100%;
+    left: 0;
     line-height:170px;
-    margin-left: 30%;
-    margin-right:30%;
+   
     margin-bottom:0px;
     margin-top: 0px;
     
 }
 
 .navbar {
+    width: 100%;
     border: 1px solid black;
     list-style-type: none;
     margin: 0;
@@ -65,34 +66,26 @@ li a:hover {
 }
 
 .content {
-
-    width: 700px;
+    width: 900px;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
-    background-color:grey;
-    margin-left: 20px;
-    margin-right: 100px;
-    float:left
+    margin-left: 90px;
+    margin-right: 90px;
+    float: left;
+    
 
 }
 
 .heading {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    width: 400px; 
-    margin-left:150px;
-    margin-top: 0px;
     margin-bottom: 20px;
     
 }
 
 p {
     font-family:  Helvetica;
-    background-color: red;
-    margin-left: 10%;
+    background-color: silver;
     margin-right: 10%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -101,17 +94,14 @@ p {
 
 }
 
-.image {
+.yanagisawa {
     margin-top: 50px;
-    height: 800px;
-    width: 350px;
-    display: block;
-    float: left;
+    margin-right: 50px;
     border: solid 1px black;
-    
-
+    height: 900px;
+    width: 500px;
+    float: right;
 }
-
 footer {
     padding-top:0px;
     margin-top: 0px;
