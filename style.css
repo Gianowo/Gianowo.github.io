@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: white;
     
 }
 
@@ -7,6 +7,7 @@ body {
     margin-top: 20px;
     background-color: whitesmoke;
     margin-bottom: 20px;
+    padding-top: 50px;
     padding-bottom: 2px;
     height: 1300px;
     
@@ -17,16 +18,17 @@ body {
     font-size: 100px;
     background-color: red;
     height: 200px;
-    width: 500px;
+    width: 100%;
+    left: 0;
     line-height:170px;
-    margin-left: 30%;
-    margin-right:30%;
+   
     margin-bottom:0px;
     margin-top: 0px;
     
 }
 
 .navbar {
+    width: 100%;
     border: 1px solid black;
     list-style-type: none;
     margin: 0;
