@@ -1,18 +1,18 @@
 body {
     background-color: white;
-    
+    height: 1000px;
 }
-
+/*flex container*/
 .flexbox {
     margin-top: 20px;
     background-color: white;
     margin-bottom: 20px;
     padding-top: 50px;
     padding-bottom: 2px;
-    height: 1300px;
+    height: 100%;
     
 }
-
+/*Website logo*/
 .logo {
     text-align: center;
     font-size: 100px;
@@ -21,12 +21,11 @@ body {
     width: 100%;
     left: 0;
     line-height:170px;
-   
     margin-bottom:0px;
     margin-top: 0px;
     
 }
-
+/*Navigation*/
 .navbar {
     width: 100%;
     border: 1px solid black;
@@ -64,42 +63,46 @@ li a {
 li a:hover {
     background-color:rgb(14, 196, 14);
 }
-
+/*Content div */
 .content {
-    width: 900px;
+    width: 700px;
     justify-content: center;
     padding-top: 50px;
     margin-top: 0px;
     margin-bottom: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 40px;
     float: left;
     
-
 }
 
 .heading {
+    font-size: 60px;
+    width: 60%;
     margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: solid 3px black;
     
 }
 
 p {
     font-family:  Helvetica;
     background-color: silver;
-    margin-right: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
 
 }
-
+/*Image*/
 .yanagisawa {
     margin-top: 50px;
     margin-right: 50px;
     border: solid 1px black;
     height: 900px;
-    width: 500px;
+    width: 400px;
     float: right;
 }
 footer {
