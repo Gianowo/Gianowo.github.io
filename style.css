@@ -8,6 +8,7 @@ body {
     background-color: whitesmoke;
     margin-bottom: 20px;
     padding-bottom: 2px;
+    height: 1300px;
     
 }
 
@@ -64,32 +65,33 @@ li a:hover {
 }
 
 .content {
-    width: 700px;
+    width: 900px;
     justify-content: center;
     padding-top: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
-    background-color:greenyellow;
-    margin-left: 20px;
-    margin-right: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    float: left;
     
 
 }
 
 .heading {
-    color: red;
-    background-color: blue;
+    font-size: 70px;
+    background-color: whitesmoke;
     text-align: center;
-    width: 200px; 
-    margin-left:250px;
-    margin-top: 0px;
+    width: 400px; 
+    margin-left:30%;
+    margin-right: 40%;
+    margin-top:0px;
     margin-bottom: 20px;
     
 }
 
 p {
     font-family:  Helvetica;
-    background-color: red;
+    background-color: silver;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 20px;
@@ -99,6 +101,14 @@ p {
 
 }
 
+.yanagisawa {
+    margin-top: 50px;
+    margin-right: 50px;
+    border: solid 1px black;
+    height: 900px;
+    width: 500px;
+    float: right;
+}
 footer {
     color: white;
     text-align: center;
