@@ -1,7 +1,7 @@
 
 body {
     background-color: white;
-    height: 1500px;
+    height: 2000px;
 }
 /*flex container*/
 
@@ -120,13 +120,14 @@ li a:hover {
 }
 
 .saxophonistsheading {
-    margin-left: 250px;
+    width: 1000px;
     text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
+    margin-bottom: 50px;
     font-size: 60px;
+    display: inline-block;
     border-bottom: solid 3px black;
 }
 
@@ -166,8 +167,8 @@ li a:hover {
     
 }
 
-.saxophonistscontent {
-    width: 500px;
+.saxophonistcontent {
+    width: 1000px;
     padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 50px;
@@ -199,8 +200,38 @@ iframe {
 
 /*The text/Content*/
 
-p {
+
+.profiles {
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 5px;
+    list-style-type: none;
+    margin-bottom:5px;
+}
+
+.profile {
+    height: 400px;
+    width: 400px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    float:left;
+    background-color: lightcoral;
     
+}
+
+.bio {
+    background-color: lawngreen;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline-block;
+    
+}
+
+p {
     font-family:  Helvetica;
     background-color: silver;
     margin-right: 10px;
