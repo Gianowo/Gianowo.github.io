@@ -17,7 +17,6 @@ body {
 /*Website logo*/
 
 .logo {
-    color:rgba(0, 0, 0);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +38,7 @@ body {
 
 .navbar {
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 3px solid;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,13 +55,17 @@ body {
 .groupLinks {
     float:left;
     width: 130px;
-    border-right: 1px solid grey;
+    border-right: 3px solid black;
+}
+
+.groupLinks not:first-child{
+    border-left: 3px solid black;
 }
 
 li a {
     font-family:Helvetica ;
     color: white;
-    background-color: black;
+    background-color: grey;
     display:block;
     text-decoration:none;
     text-align: center;
@@ -80,7 +83,7 @@ li a:hover {
 .loneLink {
     width: 90px;
     float:right;
-    border-left: solid 1px grey;
+    border-left: solid 3px black;
 
 }
 
@@ -109,6 +112,7 @@ li a:hover {
     display: inline-block;
     font-size: 60px;
     border-bottom: solid 3px black;
+    background-color: yellowgreen;
     
 }
 
@@ -121,6 +125,7 @@ li a:hover {
     display: inline-block;
     font-size: 60px;
     border-bottom: solid 3px black;
+    background-color: yellowgreen;
 }
 
 .saxophonistsheading {
@@ -133,17 +138,20 @@ li a:hover {
     font-size: 60px;
     display: inline-block;
     border-bottom: solid 3px black;
+    background-color: yellowgreen;
 }
 
 .aboutheading {
     
-    margin-left: 250px;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 60px;
     border-bottom: solid 3px black;
+    background-color: yellowgreen;
     display: inline-block;
 }
 
@@ -198,10 +206,10 @@ li a:hover {
 
 /*The embed landing video*/
 iframe {
-    width:900px;
+    width:700px;
     height: 500px;
-    margin-top: 20px;
-    margin-left: 5%;
+    margin-top: 0px;
+    margin-left: 2%;
     float: left;
 }
 
@@ -264,10 +272,10 @@ p {
 .yanagisawa {
     padding-top: 0px;
     margin-top: 0px;
-    margin-right: 5%;
+    margin-right: 2%;
     border: solid 1px black;
     height: 900px;
-    width: 400px;
+    width: 30%;
     float: right;
     
 }
