@@ -295,27 +295,31 @@ p {
 
 .soprano {
     border: solid 1px black;
-    height: 250px;
+    height: 300px;
     width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
 }   
 
 .alto {
     border: solid 1px black;
     height: 300px;
     width: 250px;
-    
+    padding: 10px;
 }
 
 .tenor {
     border: solid 1px black;
-    height: 250px;
+    height: 300px;
     width: 250px;
+    padding: 10px;
 }
 
 .baritone {
     border: solid 1px black;
-    height: 250px;
+    height: 300px;
     width: 250px;
+    padding: 10px;
 }
 
 .saxtext {
