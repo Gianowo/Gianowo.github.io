@@ -1,31 +1,40 @@
+
 body {
     background-color: white;
-    
+    height: 1000px;
 }
+/*flex container*/
 
 .flexbox {
     margin-top: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     margin-bottom: 20px;
     padding-top: 50px;
     padding-bottom: 2px;
-    height: 1300px;
+    height: 100%;
     
 }
+/*Website logo*/
 
 .logo {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    font-size: 100px;
-    background-color: red;
-    height: 200px;
+    background-position-y:0px ;
+    font-size: 50px;
+    height: 500px;
     width: 100%;
     left: 0;
-    line-height:170px;
-   
+    line-height:700px;
     margin-bottom:0px;
     margin-top: 0px;
-    
+    padding-top: 50px;
+    min-height:400px;
+    background-image: url("images/kennyG.jpg");
 }
+/*Navigation*/
 
 .navbar {
     width: 100%;
@@ -34,31 +43,32 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: grey;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     
 }
 
+/*Navigation links*/
 
-li {
-    
+.groupLinks {
     float:left;
-    
+    width: 130px;
+    border-right: 1px solid grey;
 }
 
 li a {
     font-family:Helvetica ;
     color: white;
-    background-color: grey;
+    background-color: black;
     display:block;
     text-decoration:none;
     text-align: center;
-    width: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
     height: 50px;
     line-height: 50px;
-    border-right: 1px solid black;
     
 }
 
@@ -66,36 +76,50 @@ li a:hover {
     background-color:rgb(14, 196, 14);
 }
 
+.loneLink {
+    width: 90px;
+    float:right;
+    border-left: solid 1px grey;
+
+}
+
+/*Content div */
+
 .content {
-    width: 900px;
+    width: 700px;
     justify-content: center;
     padding-top: 50px;
     margin-top: 0px;
     margin-bottom: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 40px;
     float: left;
     
-
-}
-
-.heading {
-    font-size: 70px;
-    background-color: whitesmoke;
-    text-align: center;
-    width: 400px; 
-    margin-left:30%;
-    margin-right: 40%;
-    margin-top:0px;
-    margin-bottom: 20px;
     
 }
+
+/*Heading for the content*/
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+    height: 50px;
+    width:300px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-bottom: solid 3px black;
+    
+    
+}
+
+/*The text/Content*/
 
 p {
     font-family:  Helvetica;
     background-color: silver;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -103,19 +127,344 @@ p {
 
 }
 
+/*Image*/
+
 .yanagisawa {
     margin-top: 50px;
     margin-right: 50px;
     border: solid 1px black;
     height: 900px;
-    width: 500px;
+    width: 400px;
     float: right;
 }
+
 footer {
+    padding-top:0px;
+    margin-top: 0px;
     color: white;
     text-align: center;
     background-color:black;
+
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
 
+    .logo {
+        font-size: 25px;
+        height: 250px;
+        width: 50%;
+
+    }
+
+    .navbar {
+        width: 100%;
+        height: 50px;
+
+    }
+
+    .groupLinks , .loneLink {
+        width: 65px;
+        height: 65px;
+    }
+
+    .content {
+        width: 600px;
+    }
+
+    .heading {
+        font-size: 40px;
+        width: 410px;
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-left: 15%;
+        margin-right: 10%;
+        border-bottom: solid 3px black;
+        text-align: center; 
+
+    }
+    
+    p {
+        font-family:  Helvetica;
+        background-color: silver;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        width: 100%;
+    #
+
+    .logo {
+        font-size: 25px;
+        height: 250px;
+        width: 50%;
+
+    }
+
+    .navbar {
+        width: 100%;
+        height: 50px;
+
+    }
+
+    li a {
+        font-family:Helvetica ;
+        color: white;
+        background-color: black;
+        display:block;
+        text-decoration:none;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 50px;
+        line-height: 50px;
+        
+    }
+    .groupLinks , .loneLink {
+        width: 65px;
+        height: 65px;
+    }
+
+    .content {
+        width: 600px;
+    }
+
+    .heading {
+        font-size: 40px;
+        width: 410px;
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-left: 15%;
+        margin-right: 10%;
+        border-bottom: solid 3px black;
+        text-align: center; 
+
+    }
+    
+    p {
+        font-family:  Helvetica;
+        background-color: silver;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+         
+}
+
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 25px;
+        height: 250px;
+        width: 50%;
+
+    }
+
+    .navbar {
+        width: 100%;
+        height: 50px;
+
+    }
+
+    li a {
+        font-family:Helvetica ;
+        color: white;
+        background-color: black;
+        display:block;
+        text-decoration:none;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 50px;
+        line-height: 50px;
+        
+    }
+    .groupLinks , .loneLink {
+        width: 65px;
+        height: 65px;
+    }
+
+    .content {
+        width: 600px;
+    }
+
+    .heading {
+        font-size: 40px;
+        width: 410px;
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-left: 15%;
+        margin-right: 10%;
+        border-bottom: solid 3px black;
+        text-align: center; 
+
+    }
+    
+    p {
+        font-family:  Helvetica;
+        background-color: silver;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+         
+}
+    
+    
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 40px;
+        height: 400px;
+        width: 100%;
+    }
+    
+    .navbar {
+        width: 100%;
+        height: 50px;
+
+    }
+
+    li a {
+        font-family:Helvetica ;
+        color: white;
+        background-color: black;
+        display:block;
+        text-decoration:none;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 50px;
+        line-height: 50px;
+        
+    }
+    .groupLinks , .loneLink {
+        width: 130px;
+        height: 50px;        
+    }
+
+    .content {
+        width: 600px;
+    }
+
+    .heading {
+        font-size: 40px;
+        width: 410px;
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-left: 15%;
+        margin-right: 10%;
+        border-bottom: solid 3px black;
+        text-align: center; 
+
+    }
+    
+    p {
+        font-family:  Helvetica;
+        background-color: silver;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+         
+}
+    
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {    
+    body {
+        width: 100%;
+        }
+
+    .logo {
+        font-size: 50px;
+        height: 500px;
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 50px;
+
+    }
+
+    li a {
+        font-family:Helvetica ;
+        color: white;
+        background-color: black;
+        display:block;
+        text-decoration:none;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 50px;
+        line-height: 50px;
+        
+    }
+    .groupLinks , .loneLink {
+        width: 130px;
+        height: 50px;        
+    }
+
+    .content {
+        width: 600px;
+    }
+
+    .heading {
+        font-size: 40px;
+        width: 410px;
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-left: 15%;
+        margin-right: 10%;
+        border-bottom: solid 3px black;
+        text-align: center;
+        
+
+    }
+    
+    p {
+        font-family:  Helvetica;
+        background-color: silver;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+         
+}
 
