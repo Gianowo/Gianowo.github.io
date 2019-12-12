@@ -1,13 +1,12 @@
 
 body {
     background-color: white;
-    height: 1000px;
+    height: 10000px;
 }
 /*flex container*/
 
 .flexbox {
     margin-top: 20px;
-    background-color: white;
     margin-bottom: 20px;
     padding-top: 50px;
     padding-bottom: 2px;
@@ -85,37 +84,59 @@ li a:hover {
 
 /*Content div */
 
-.content {
-    width: 700px;
-    justify-content: center;
-    padding-top: 50px;
+.historycontent {
+    width: 900px;
+    padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 50px;
-    margin-left: 40px;
-    float: left;
+    margin-right: 50px;
+    float:left;
     
-    
+}
+
+.saxophonistscontent {
+    height: 100px;
+    width: 900px;
 }
 
 /*Heading for the content*/
 
-.heading {
+.landingheading {
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
     font-size: 60px;
-    height: 50px;
-    width:300px;
-    padding: 5px;
-    margin-bottom: 20px;
-    margin-left: 15%;
-    margin-right: 10%;
+    border-bottom: solid 3px black;
+    background-color: yellowgreen;
+    
+}
+
+.historyheading {
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    font-size: 60px;
     border-bottom: solid 3px black;
     
-    
+}
+
+/*The embed video*/
+iframe {
+    width:900px;
+    height: 500px;
+    margin-top: 20px;
+    padding-left: 10%;
+    float: left;
 }
 
 /*The text/Content*/
 
 p {
+    
     font-family:  Helvetica;
     background-color: silver;
     margin-right: 10px;
@@ -124,20 +145,30 @@ p {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    border: solid 1px black;
 
 }
 
-/*Image*/
+
+/*Images*/
 
 .yanagisawa {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-right: 50px;
     border: solid 1px black;
     height: 900px;
     width: 400px;
     float: right;
+    
 }
-
+ 
+.adolphesax {
+    height: 850px;
+    width: 600px;
+    border: 1px solid black;
+    margin-right: 50px;
+    float:right;
+}
 footer {
     padding-top:0px;
     margin-top: 0px;
@@ -146,325 +177,3 @@ footer {
     background-color:black;
 
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body {
-        width: 100%;
-    }
-
-    .logo {
-        font-size: 25px;
-        height: 250px;
-        width: 50%;
-
-    }
-
-    .navbar {
-        width: 100%;
-        height: 50px;
-
-    }
-
-    .groupLinks , .loneLink {
-        width: 65px;
-        height: 65px;
-    }
-
-    .content {
-        width: 600px;
-    }
-
-    .heading {
-        font-size: 40px;
-        width: 410px;
-        padding: 5px;
-        margin-bottom: 15px;
-        margin-left: 15%;
-        margin-right: 10%;
-        border-bottom: solid 3px black;
-        text-align: center; 
-
-    }
-    
-    p {
-        font-family:  Helvetica;
-        background-color: silver;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body {
-        width: 100%;
-    #
-
-    .logo {
-        font-size: 25px;
-        height: 250px;
-        width: 50%;
-
-    }
-
-    .navbar {
-        width: 100%;
-        height: 50px;
-
-    }
-
-    li a {
-        font-family:Helvetica ;
-        color: white;
-        background-color: black;
-        display:block;
-        text-decoration:none;
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-        height: 50px;
-        line-height: 50px;
-        
-    }
-    .groupLinks , .loneLink {
-        width: 65px;
-        height: 65px;
-    }
-
-    .content {
-        width: 600px;
-    }
-
-    .heading {
-        font-size: 40px;
-        width: 410px;
-        padding: 5px;
-        margin-bottom: 15px;
-        margin-left: 15%;
-        margin-right: 10%;
-        border-bottom: solid 3px black;
-        text-align: center; 
-
-    }
-    
-    p {
-        font-family:  Helvetica;
-        background-color: silver;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-         
-}
-
-  
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    body {
-        width: 100%;
-    }
-
-    .logo {
-        font-size: 25px;
-        height: 250px;
-        width: 50%;
-
-    }
-
-    .navbar {
-        width: 100%;
-        height: 50px;
-
-    }
-
-    li a {
-        font-family:Helvetica ;
-        color: white;
-        background-color: black;
-        display:block;
-        text-decoration:none;
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-        height: 50px;
-        line-height: 50px;
-        
-    }
-    .groupLinks , .loneLink {
-        width: 65px;
-        height: 65px;
-    }
-
-    .content {
-        width: 600px;
-    }
-
-    .heading {
-        font-size: 40px;
-        width: 410px;
-        padding: 5px;
-        margin-bottom: 15px;
-        margin-left: 15%;
-        margin-right: 10%;
-        border-bottom: solid 3px black;
-        text-align: center; 
-
-    }
-    
-    p {
-        font-family:  Helvetica;
-        background-color: silver;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-         
-}
-    
-    
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body {
-        width: 100%;
-    }
-
-    .logo {
-        font-size: 40px;
-        height: 400px;
-        width: 100%;
-    }
-    
-    .navbar {
-        width: 100%;
-        height: 50px;
-
-    }
-
-    li a {
-        font-family:Helvetica ;
-        color: white;
-        background-color: black;
-        display:block;
-        text-decoration:none;
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-        height: 50px;
-        line-height: 50px;
-        
-    }
-    .groupLinks , .loneLink {
-        width: 130px;
-        height: 50px;        
-    }
-
-    .content {
-        width: 600px;
-    }
-
-    .heading {
-        font-size: 40px;
-        width: 410px;
-        padding: 5px;
-        margin-bottom: 15px;
-        margin-left: 15%;
-        margin-right: 10%;
-        border-bottom: solid 3px black;
-        text-align: center; 
-
-    }
-    
-    p {
-        font-family:  Helvetica;
-        background-color: silver;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-         
-}
-    
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {    
-    body {
-        width: 100%;
-        }
-
-    .logo {
-        font-size: 50px;
-        height: 500px;
-        width: 100%;
-    }
-
-    .navbar {
-        width: 100%;
-        height: 50px;
-
-    }
-
-    li a {
-        font-family:Helvetica ;
-        color: white;
-        background-color: black;
-        display:block;
-        text-decoration:none;
-        text-align: center;
-        padding-right: 20px;
-        padding-left: 20px;
-        height: 50px;
-        line-height: 50px;
-        
-    }
-    .groupLinks , .loneLink {
-        width: 130px;
-        height: 50px;        
-    }
-
-    .content {
-        width: 600px;
-    }
-
-    .heading {
-        font-size: 40px;
-        width: 410px;
-        padding: 5px;
-        margin-bottom: 15px;
-        margin-left: 15%;
-        margin-right: 10%;
-        border-bottom: solid 3px black;
-        text-align: center;
-        
-
-    }
-    
-    p {
-        font-family:  Helvetica;
-        background-color: silver;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        
-    }
-         
-}
-
