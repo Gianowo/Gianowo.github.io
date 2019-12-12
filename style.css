@@ -1,7 +1,7 @@
 
 body {
     background-color: white;
-    height: 10000px;
+    height: 1500px;
 }
 /*flex container*/
 
@@ -82,6 +82,68 @@ li a:hover {
 
 }
 
+/*Heading for the content*/
+
+.landingheading {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 300px;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: solid 3px black;
+    background-color: yellowgreen;
+    
+}
+
+.historyheading {
+    margin-left: 300px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 60px;
+    border-bottom: solid 3px black;
+    
+}
+
+.variationsheading {
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 60px;
+    border-bottom: solid 3px black;
+}
+
+.saxophonistsheading {
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 60px;
+    border-bottom: solid 3px black;
+}
+
+.aboutheading {
+    
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 60px;
+    border-bottom: solid 3px black;
+    display: inline-block;
+}
+
+
+
 /*Content div */
 
 .historycontent {
@@ -94,42 +156,44 @@ li a:hover {
     
 }
 
-.saxophonistscontent {
-    height: 100px;
+.variationscontent {
     width: 900px;
-}
-
-/*Heading for the content*/
-
-.landingheading {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 500px;
-    font-size: 60px;
-    border-bottom: solid 3px black;
-    background-color: yellowgreen;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    float:left;
     
 }
 
-.historyheading {
-    margin-left: 200px;
-    text-align: center;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.saxophonistscontent {
     width: 500px;
-    font-size: 60px;
-    border-bottom: solid 3px black;
-    
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    float:left;
+   
 }
 
-/*The embed video*/
+
+.aboutcontent {
+    width: 900px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    float:left;
+   
+}
+
+
+/*The embed landing video*/
 iframe {
     width:900px;
     height: 500px;
     margin-top: 20px;
-    padding-left: 10%;
+    margin-left: 5%;
     float: left;
 }
 
@@ -153,8 +217,9 @@ p {
 /*Images*/
 
 .yanagisawa {
+    padding-top: 0px;
     margin-top: 0px;
-    margin-right: 50px;
+    margin-right: 5%;
     border: solid 1px black;
     height: 900px;
     width: 400px;
