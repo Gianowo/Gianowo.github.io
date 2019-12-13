@@ -1,11 +1,11 @@
 things that need to be changed:
-All headings e.g .landingheading 
-Navbar
-Logo
-.adolphesax
-variationcontent
-saxophonistcontent (images)
-aboutcontent
-iframe
-media queries (recopy and adjust all the css code)
-template 
+All headings e.g .landingheading not done
+Navbar not done
+Logo done
+.adolphesax done
+variationcontent done
+saxophonistcontent (images) done
+aboutcontent done
+iframe done
+media queries not done (recopy and adjust all the css code)
+template done
