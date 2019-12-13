@@ -68,6 +68,12 @@ body {
     border-right: 2px solid black;
 }
 
+@media only screen and (max-width:768){
+    .groupLinks{
+        width: 50px;
+    }
+}
+
 .groupLinks:last-child{
     border-left: solid 2px black;
 }
@@ -147,7 +153,7 @@ li a:active {
 }
 
 .variationsheading {
-    width: 50%;
+    width: 5  0%;
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
