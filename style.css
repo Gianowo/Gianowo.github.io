@@ -1,7 +1,9 @@
 
 body {
     background-color: white;
-    height: 1200px;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
 }
 /*flex container*/
 
@@ -10,11 +12,9 @@ body {
     margin-bottom: 0px;
     padding-top: 50px;
     padding-bottom: 0px;
-    height: 100%;
-    
     
 }
-/*Website logo*/
+/*Webpage name and parallax image/logo*/
 
 .logo {
     background-attachment: fixed;
@@ -34,11 +34,20 @@ body {
     min-height:400px;
     background-image: url("images/kennyG.jpg");
 }
+
+@media only screen and (max-width: 768px){
+    .logo {
+        font-size: 40px;
+        padding:0;
+    }
+
+}
 /*Navigation*/
 
 .navbar {
     width: 100%;
-    border-bottom: 3px solid;
+    border-top: 2px solid ;
+    border-bottom: 2px solid;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -50,17 +59,20 @@ body {
     
 }
 
+
 /*Navigation links*/
 
 .groupLinks {
     float:left;
     width: 130px;
-    border-right: 3px solid black;
+    border-right: 2px solid black;
 }
 
-.groupLinks not:first-child{
-    border-left: 3px solid black;
+.groupLinks:last-child{
+    border-left: solid 2px black;
 }
+
+
 
 li a {
     font-family:Helvetica ;
@@ -73,89 +85,118 @@ li a {
     padding-left: 20px;
     height: 50px;
     line-height: 50px;
+    border-right: solid 2px white;
     
 }
 
-li a:hover {
-    background-color:rgb(14, 196, 14);
+li a:first-child {
+    border-left:solid 1px black;
 }
 
+
+li a:link {
+    background-color: grey;
+}
+
+
+li a:hover {
+    background-color:rgb(11, 192, 11);
+}
+
+li a:active {   
+    background-color: rgb(23, 235, 23);
+
+}
 .loneLink {
     width: 90px;
     float:right;
+    border-right: solid 2px white;
     border-left: solid 3px black;
-
 }
+
 
 /*Heading for the content*/
 
-.landingheading {
-    width: 30%;
+.heading {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 35%;
-    margin-right: 35%;
-    display: inline-block;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 50px;
     border-bottom: solid 3px black;
     background-color: yellowgreen;
-    
+    display: inline-block;
+
 }
 
 .historyheading {
-    margin-left: 300px;
+    width: 60%;
+    margin-right:20%;
+    margin-left: 20%;
     text-align: center;
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    display: inline-block;
-    font-size: 60px;
+    font-size: 50px;
     border-bottom: solid 3px black;
     background-color: yellowgreen;
-    
+    display: inline-block;
 }
 
 .variationsheading {
-    margin-left: 250px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     text-align: center;
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    display: inline-block;
-    font-size: 60px;
+    font-size: 50px;
     border-bottom: solid 3px black;
     background-color: yellowgreen;
+    display: inline-block;
 }
 
 .saxophonistsheading {
     width: 40%;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-size: 60px;
-    display: inline-block;
-    border-bottom: solid 3px black;
-    background-color: yellowgreen;
-}
-
-.aboutheading {
-    
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
     margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 60px;
+    font-size: 50px;
     border-bottom: solid 3px black;
     background-color: yellowgreen;
     display: inline-block;
 }
 
+.aboutheading {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 50px;
+    border-bottom: solid 3px black;
+    background-color: yellowgreen;
+    display: inline-block;
+   
+}
 
+@media only screen and(max-width:768px){
+    .heading {
+        width: 80%;
+        height: 200px;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+}
 
 /*Content div */
 
@@ -170,12 +211,10 @@ li a:hover {
 }
 
 .variationscontent {
-    width: 900px;
     padding-top: 0px;
     margin-top: 0px;
+    margin-right: 280px;
     margin-bottom: 50px;
-    margin-right: 50px;
-    float:left;
     
 }
 
@@ -184,12 +223,19 @@ li a:hover {
     margin-top: 0px;
     margin-bottom: 50px;
     margin-right: 0px;
-    float:left;
-    height: 2000px;
-    
+    margin-left: 0px;
+    height: 100%;
+    width: 80%;
+    margin-bottom: 50px;
     
 }
 
+@media only screen and(max-width:768px){
+    .saxophonistcontent{
+        margin-left: 0;
+        padding: 0;
+    }
+}
 
 .aboutcontent {
     width: 70%;
@@ -197,10 +243,9 @@ li a:hover {
     margin-top: 0px;
     margin-left:15%;
     margin-right: 15%;
-    
-    
-   
+
 }
+
 
 
 /*The embed landing video*/
@@ -213,7 +258,17 @@ iframe {
 
 }
 
-/*The text/Content*/
+@media only screen and (max-width:768px){
+    iframe {
+        width: 768px;
+        height:500px;
+        margin:10px;
+    }
+}
+
+
+
+/*The content of the profiles page*/
 
 
 .profiles {
@@ -228,14 +283,24 @@ iframe {
     margin-top: 5px;
     list-style-type: none;
     margin-bottom:0px;
+
 }
 
+@media only screen and (max-width:768px){
+    .profiles{
+        margin:0px;
+    }
+}
+
+/*Profile picture*/
 .profile {
     height: 400px;
     width: 400px;
     border:solid 1px black;
     margin-bottom: 0px;
 }
+
+/*Heading for names*/
 
 h3 {
     text-align: center;
@@ -247,14 +312,12 @@ h3 {
     border-bottom: solid 3px black;
     
 }
-
+/*Profile biography*/
 .bio {
-    
     margin-left: 0px;
     margin-top: 0px;
     display: inline-block;
     margin-right: 100px;
-    
     
 }
 
@@ -271,7 +334,20 @@ p {
 
 }
 
+@media only screen and (max-width: 768px){
+    p, .bio ,h3 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
 
+@media only screen and (max-width:768px){
+    h3{
+        padding: 0;
+        margin: 0;
+    }
+}
 /*Images*/
 
 .yanagisawa {
@@ -285,18 +361,31 @@ p {
     
 }
  
+@media only screen and (max-width:768px){
+    .yanagisawa{
+        display:none
+    }
+}
+
 .adolphesax {
     height: 800px;
     width: 400px;
     border: 1px solid black;
     margin-right: 50px;
-    margin-top: 275px;
+    margin-top: 15px;
     float:right; 
 }
 
 .varietiesOfSaxophone{
     list-style-type: none;
     margin-left: 10%;
+}
+
+@media only screen and (max-width: 768px){
+    .varietiesOfSaxophone{
+        margin:0;
+        padding:5px;
+    }
 }
 
 .soprano {
@@ -332,3 +421,9 @@ p {
     margin-left: 0px;
 }
 
+@media only screen and(max-width:768px){
+    .saxtext{
+        width: 250px;
+        padding: 10px;
+    }
+}
